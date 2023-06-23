@@ -20,15 +20,12 @@ dependencies:
   ai:
     specifier: ^2.1.7
     version: 2.1.7(react@18.2.0)(svelte@3.59.2)(vue@3.3.4)
-  cohere-ai:
-    specifier: ^5.0.2
-    version: 5.1.0
   dotenv:
     specifier: ^16.3.1
     version: 16.3.1
   langchain:
     specifier: ^0.0.96
-    version: 0.0.96(@pinecone-database/pinecone@0.1.6)(cohere-ai@5.1.0)
+    version: 0.0.96(@pinecone-database/pinecone@0.1.6)
   next:
     specifier: 13.4.7
     version: 13.4.7(react-dom@18.2.0)(react@18.2.0)
@@ -526,10 +523,6 @@ packages:
     resolution: {integrity: sha512-IV3Ou0jSMzZrd3pZ48nLkT9DA7Ag1pnPzaiQhpW7c3RbcqqzvzzVu+L8gfqMp/8IM2MQtSiqaCxrrcfu8I8rMA==}
     dev: false
 
-  /cohere-ai@5.1.0:
-    resolution: {integrity: sha512-7q3z3w6GSoPxQqRL9G6QTaQ0e513auVE1JlNDnqnoFEXGtDbkVfaTOliR5qrMoK//74Csb0NW669evqngwPx3g==}
-    dev: false
-
   /combined-stream@1.0.8:
     resolution: {integrity: sha512-FQN4MRfuJeHf7cBbBMJFXhKSDq+2kAArBlmRBvcvFE5BB1HZKXtSFASDhdlz9zOYwxh8lDdnvmMOe/+5cdoEdg==}
     engines: {node: '>= 0.8'}
@@ -791,7 +784,7 @@ packages:
     engines: {node: '>=0.10.0'}
     dev: false
 
-  /langchain@0.0.96(@pinecone-database/pinecone@0.1.6)(cohere-ai@5.1.0):
+  /langchain@0.0.96(@pinecone-database/pinecone@0.1.6):
     resolution: {integrity: sha512-m1d0IWjwZK+D19uBfgmfp5sUTxJXcjJb/YuIyn2cGNmXGqOH2r2cl0TUnhuFKxTXpMTXgTywd7MYF5U5/qkNTQ==}
     engines: {node: '>=18'}
     peerDependencies:
@@ -946,7 +939,6 @@ packages:
       ansi-styles: 5.2.0
       binary-extensions: 2.2.0
       camelcase: 6.3.0
-      cohere-ai: 5.1.0
       decamelize: 5.0.1
       expr-eval: 2.0.2
       flat: 5.0.2
