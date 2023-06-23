@@ -49,6 +49,9 @@ devDependencies:
   postcss:
     specifier: ^8.4.24
     version: 8.4.24
+  tailwind-merge:
+    specifier: ^1.13.2
+    version: 1.13.2
   tailwindcss:
     specifier: ^3.3.2
     version: 3.3.2
@@ -1481,6 +1484,10 @@ packages:
     dependencies:
       vue: 3.3.4
     dev: false
+
+  /tailwind-merge@1.13.2:
+    resolution: {integrity: sha512-R2/nULkdg1VR/EL4RXg4dEohdoxNUJGLMnWIQnPKL+O9Twu7Cn3Rxi4dlXkDzZrEGtR+G+psSXFouWlpTyLhCQ==}
+    dev: true
 
   /tailwindcss-animate@1.0.6(tailwindcss@3.3.2):
     resolution: {integrity: sha512-4WigSGMvbl3gCCact62ZvOngA+PRqhAn7si3TQ3/ZuPuQZcIEtVap+ENSXbzWhpojKB8CpvnIsrwBu8/RnHtuw==}
